@@ -77,10 +77,10 @@ echo $categories_links;
 
 
 
+    }
 
 
-/*
-function get_products_in_cat_page(){
+function get_products_in_cat_page() {
 
 $query = query("SELECT * FROM products WHERE product_category_id =" . escape_string($_GET['id']) . " ");
 confirm($query);
@@ -100,7 +100,7 @@ while ($row = fetch_array($query)) {
             </p>
         </div>
     </div>
-</div>}}
+</div>
 
 EOD;
 
@@ -109,14 +109,13 @@ EOD;
              
             }
         }
-*/
+
         
     //*************************** Back End Functions********************************* */
 
 
 
 
-    }
 
 
 
